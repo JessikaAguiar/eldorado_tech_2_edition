@@ -1,0 +1,167 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"
+              content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--    Bootstrap CSS -->
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+        <!-- CSS Jéssika Aguiar -->
+        <link rel="stylesheet" href="../css/style-dashboard.css">
+        <link rel="stylesheet" href="../css/animation.css">
+
+        <title>Dashboard</title>
+    </head>
+    <body>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2 col-sm-2 col-md-2 pl-0">
+                    <nav class="nav-dash">
+                        <header class="header-nav">
+                            <span class="img-school">
+                                <i class="fa-solid icon-school fa-graduation-cap"></i>
+                            </span>
+                            <div>
+                                <h4>El-School</h4>
+                                <p>Shool Dashboard</p>
+                            </div>
+                        </header>
+                        <ul class="items-nav">
+                            <li class="active-item">
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-house-chimney"></i>
+                                    <span class="ml-2">Dashboard</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-school"></i>
+                                    <span class="ml-2">Students</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-chalkboard-user"></i>
+                                    <span class="ml-2">Teachers</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-disease"></i>
+                                    <span class="ml-2">Events</span>
+                                </a>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-coins"></i>
+                                    <span class="ml-2">Finance</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-calendar-days"></i>
+                                    <span class="ml-2">Calendar</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa-solid icon-item fa-bell"></i>
+                                    <span class="ml-2">Notification</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <footer class="footer-menu">
+                            <section class="d-flex group-footer-user">
+                                <img src="../assets/img/dash-user.png" class="user-img-circle">
+                                <div class="desc-user ml-3">
+                                    <h6>Mary Grace</h6>
+                                    <span>Teacher</span>
+                                </div>
+                            </section>
+                            <a href="../index.html" class="btn mb-3 btn-light">Logout</a>
+                        </footer>
+                    </nav>
+                </div>
+                <div class="col col-sm-10 col-md-10 h-100">
+                    <header class="header-nav-main">
+                        <h4>Dashboard</h4>
+                    </header>
+                    <main class="main-pad">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col d-flex">
+                                    <div class="card card-dash-animation">
+                                        <div class="card-body">
+                                            <h5 class="card-title">6,825</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Total Students</h6>
+                                            <img src="../assets/img/study-dash.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                    <div class="card card-dash-animation">
+                                        <div class="card-body">
+                                            <h5 class="card-title">654</h5>
+                                            <h6 class="card-subtitle mb-2 text-muted">Total Teachs</h6>
+                                            <img src="../assets/img/teacher-dash.png" class="img-fluid">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card mt-4 w-100">
+                                        <div class="card-header">
+                                            Class 1
+                                        </div>
+                                        <div class="card-body">
+                                            <h5 class="card-title">Total Students: 30 </h5>
+                                            <table class="table table-sm">
+                                                <thead>
+                                                <tr>
+                                                    <th scope="col">#</th>
+                                                    <th scope="col">Name</th>
+                                                    <th scope="col">Birth Date</th>
+                                                    <th scope="col">Situation</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                                <tr>
+                                                    <th scope="row">1</th>
+                                                    <td>Apollo de Oliveira Madeira</td>
+                                                    <td>01/01/2017</td>
+                                                    <td>Approved</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">2</th>
+                                                    <td>Jessika Maria Bratos</td>
+                                                    <td>01/01/2017</td>
+                                                    <td>Approved</td>
+                                                </tr>
+                                                <tr>
+                                                    <th scope="row">3</th>
+                                                    <td>Ericton Silva Gonçalves</td>
+                                                    <td>20/10/2016</td>
+                                                    <td>Disapproved</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </main>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+
+        <!--   Icons Font Awesomw     -->
+        <script src="https://kit.fontawesome.com/fd53371904.js" crossorigin="anonymous"></script>
+    </body>
+</html>
